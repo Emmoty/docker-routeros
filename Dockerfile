@@ -21,7 +21,7 @@ RUN set -xe \
     bridge-utils iptables jq bash python3
 
 # Environments yang mungkin berubah
-ENV ROUTEROS_VERSION="7.15.3"
+ENV ROUTEROS_VERSION="6.46.5"
 ENV ROUTEROS_IMAGE="chr-$ROUTEROS_VERSION.vdi"
 ENV ROUTEROS_PATH="https://download.mikrotik.com/routeros/$ROUTEROS_VERSION/$ROUTEROS_IMAGE"
 
