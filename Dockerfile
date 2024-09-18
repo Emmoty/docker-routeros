@@ -2,13 +2,13 @@
 FROM alpine:3.11
 
 # Expose port untuk akses VNC
-#EXPOSE 5900
+EXPOSE 5900
 
 # Expose port default dari RouterOS
-#EXPOSE 21 22 23 80 443 8291 8728 8729
+EXPOSE 21 22 23 80 443 8291 8728 8729
 
 # Expose port untuk berbagai layanan VPN
-#EXPOSE 50 51 500/udp 4500/udp 1194/tcp 1194/udp 1701 1723
+EXPOSE 50 51 500/udp 4500/udp 1194/tcp 1194/udp 1701 1723
 
 # Ubah direktori kerja (juga akan membuat folder ini jika belum ada)
 WORKDIR /routeros
